@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sam's Website Full of Assignments</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <script src= "js/dates.js"></script>
+    <script src="js/dates.js"></script>
 </head>
 <body>
     <header>
-        <img src="images/Pic_of_me.jpg" alt="Picture of Sam Rodriguez">
+        <img src="images/pic-of-me.jpg" alt="Picture of Sam Rodriguez">
         <h1>Sam Rodriguez</h1>
     </header>
     <main>
@@ -23,7 +23,14 @@
         </ul>
     </main>
     <footer>
-        &copy; <span> id="date"></span>| Sam Rodriguez | Texas | <a href="https://www.byui.edu/online">BYU Idaho Online Learning</a></p>
+        <p>&copy; <span>
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+        </span>| Sam Rodriguez | Texas | 
+        
+            <a href="https://www.byui.edu/online">BYU Idaho Online Learning</a>
+        </p>
         <span>Last Update: 
             <script type="text/javascript">
                 lastModified()
