@@ -10,7 +10,7 @@ footer {
 }
 
 header {
-    background-color:green;
+    background-color:rgb(46, 124, 46);
     padding: 1.5rem;
 }
 
@@ -23,12 +23,14 @@ header img {
     height: auto;
 }
 footer {
-    background-color: green;
+    background-color: rgb(46, 124, 46);
     text-align: center;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 h1 {
     font-size: 2.4rem;
-    color: orange;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
