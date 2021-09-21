@@ -1,4 +1,2 @@
-function lastModified() {
-	document.write(document.lastModified);
-}
 
+document.getElementById("date").innerHTML = new Date().getFullYear();
