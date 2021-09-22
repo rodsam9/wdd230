@@ -1,5 +1,5 @@
 
 document.getElementById("date").innerHTML = new Date().getFullYear();
 
-var string = document.lastModified
+let string = document.lastModified
 document.getElementById("last-update").innerHTML = string
