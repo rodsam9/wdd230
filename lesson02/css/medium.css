@@ -4,7 +4,7 @@
         grid-template-columns: 1fr 1fr;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     main section:nth-child(2) {
         display: block;
