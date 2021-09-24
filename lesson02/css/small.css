@@ -1,0 +1,54 @@
+body {
+    background-color: #fefbe9;
+
+}
+header {
+    font-family: 'Gluten', cursive;
+    font-size: 6rem;
+    text-align: center;
+    background-color: #f0a04b;
+    padding-top: 1rem;
+}
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2rem;
+    color: #183a1d;
+}
+h3 {
+    font-family: 'Crimson Text', serif;
+    font-size: 27px;
+    color: #f6c453;
+    
+}
+a {
+    font-size: 20px;
+}
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+main{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: .8rem;
+}
+
+main section {
+    margin: .5rem;
+    border: 1px solid gray;
+    padding: 0 1rem;
+    background-color: #e1eedd;
+
+}
+
+footer {
+    background-color: #f0a04b;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#byui-website {
+    color:white;
+}

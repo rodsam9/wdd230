@@ -10,14 +10,11 @@ footer {
 header {
     background-color:rgb(46, 124, 46);
     padding: 1.5rem;
+    text-align: center;
 }
 
 header img {
-    float: right;
-}
-
-header img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 footer {
@@ -30,9 +27,19 @@ footer {
 h1 {
     font-size: 2.4rem;
     color: rgb(236, 219, 255);
-    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin-left: .5rem;
 }
 #byui-website {
     color:white;
     background-color: #205520;
+}
+main ul {
+    list-style: none;
+}
+main ul li::before {
+    content: '❇️';
 }
