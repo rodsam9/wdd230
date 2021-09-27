@@ -2,9 +2,9 @@ body {
     background-color: #fefbe9;
 
 }
-header {
+h1 {
     font-family: 'Gluten', cursive;
-    font-size: 6rem;
+    font-size: 3rem;
     text-align: center;
     background-color: #f0a04b;
     padding-top: 1rem;
@@ -23,11 +23,14 @@ h3 {
     
     
 }
+img {
+    width: 100%;
+}
 a {
     font-size: 20px;
 }
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     color: black;
 }
