@@ -5,6 +5,12 @@ body {
 
 h1 {
     font-family: 'Roboto Slab', serif;
+
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+
+
 }
 nav {
 	background-color: #ab5f03;
@@ -13,7 +19,7 @@ nav {
 
 		
 nav ul {
-    display: flex;
+    display: block;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -41,17 +47,33 @@ main {
     grid-template-columns: 1fr;
     font-size: 0.8rem;
     margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid #ab5f03;
 	padding: 0 1rem;
 	background-color: #ffe3c1;
 }
-
-picture {
-    display: block;
+main section {
+    padding: 5px;
     margin: .5rem;
+    background-color: #f0bf81;
 }
-p {
+
+main section img:nth-child(1) {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+img {
+    width: 100%
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+main p {
+    padding-left: 1rem;
+    padding-top: 1rem;
     font-family: 'Lora', serif;
+    font-size: 1rem;
 }
 
 footer {

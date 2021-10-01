@@ -1,0 +1,32 @@
+@media (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    main p {
+        padding-left: .25rem;
+        padding-top: 1.75rem;
+        font-family: 'Lora', serif;
+        font-size: 1.25rem;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 10px;
+    }
+    img {
+        display: block;
+        width:100%;
+        margin-top: 10px;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+    }
+    main section:nth-child(3) {
+        display: block;
+    }
+}
