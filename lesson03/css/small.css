@@ -108,6 +108,7 @@ footer {
 }
 #bg-color1 {
     background-color: #ab5f03;
+    color: white;
 }
 #typo-h1 {
     font-size: 2rem;
@@ -137,4 +138,7 @@ footer {
     background-color: #f0bf81;
     margin: 1rem;
     padding: 1rem;
+}
+#make-white {
+    color:white;
 }
