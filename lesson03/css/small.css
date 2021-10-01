@@ -142,3 +142,25 @@ footer {
 #make-white {
     color:white;
 }
+#target-bg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+}
+#target-bg h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+#target-bg h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+#target-bg p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem
+}
+
+#space {
+    grid-column: 2/3;
+}
