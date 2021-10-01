@@ -1,0 +1,67 @@
+body {
+    background-color: #d39447;
+
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+nav {
+	background-color: #ab5f03;
+	box-shadow: 0 2px 15px #ffe3c1;
+}
+
+		
+nav ul {
+    display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    text-align: center;
+}
+nav ul li { 
+    flex: 1 1 100%; 
+}
+nav ul li a {
+	display: block;
+	color: white;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+     	background-color: #f0bf81;
+        color: #22272a; 
+        --d: 75%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #ffe3c1;
+}
+
+picture {
+    display: block;
+    margin: .5rem;
+}
+p {
+    font-family: 'Lora', serif;
+}
+
+footer {
+    background-color: #ab5f03;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#byui-website {
+    color:white;
+
+}

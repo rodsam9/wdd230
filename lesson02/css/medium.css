@@ -14,7 +14,6 @@
         display: block;
     }
     main section picture img {
-        width: 100%;
         height: auto;
         border: 1px solid gray;
         margin-top: 10px;
