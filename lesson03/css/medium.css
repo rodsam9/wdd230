@@ -2,7 +2,7 @@
     main {
         grid-template-columns: 1fr 1fr;
     }
-    main p {
+    main section p {
         padding-left: .25rem;
         padding-top: 1.75rem;
         font-family: 'Lora', serif;
@@ -30,3 +30,4 @@
         display: block;
     }
 }
+

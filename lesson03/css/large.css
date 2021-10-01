@@ -4,9 +4,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
    
-    main p {
+    main section p {
         padding-left: .5rem;
-        padding-top: 2.5rem;
+        padding-top: 2rem;
         font-family: 'Lora', serif;
         font-size: 1.75rem;
     }

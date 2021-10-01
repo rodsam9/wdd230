@@ -65,11 +65,11 @@ main section img:nth-child(1) {
 img {
     width: 100%
 }
-h2 {
+main section h2 {
     font-size: 2.5rem;
     text-align: center;
 }
-main p {
+main section p {
     padding-left: 1rem;
     padding-top: 1rem;
     font-family: 'Lora', serif;
@@ -86,4 +86,55 @@ footer {
 #byui-website {
     color:white;
 
+}
+
+
+#typo-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: white;
+    padding: .5rem;
+    margin-top: 4rem;
+}
+#typo-background p {
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+}
+#bg-color2 {
+    background-color: #f0bf81;
+}
+#bg-color1 {
+    background-color: #ab5f03;
+}
+#typo-h1 {
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: #ab5f03;
+    border: 1px solid white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+#typo-p {
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+    background-color: #f0bf81;
+    border: 1px solid white;
+
+}
+#color-bg {
+    display:grid;
+    font-size: 5rem;
+}
+#description-color {
+    font-size: 2rem;
+    text-align: center;
+    grid-column: 1/4;
+    background-color: #f0bf81;
+    margin: 1rem;
+    padding: 1rem;
 }
