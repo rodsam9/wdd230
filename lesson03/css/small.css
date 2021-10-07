@@ -127,10 +127,31 @@ footer {
     border: 1px solid white;
 
 }
+#bg-color1 {
+    background-color: #d39447;
+}
+#bg-color2 {
+    background-color: #ab5f03;
+}
+
+#bg-color3 {
+    background-color: #ffe3c1;
+}
+#bg-color4 {
+    background-color: #f0bf81;
+}
+#make-white {
+    color:white;
+    background-color: black;
+}
+#bg-color5 {
+    background-color: #ffffff;
+}
 #color-bg {
     display:grid;
     font-size: 5rem;
 }
+
 #description-color {
     font-size: 2rem;
     text-align: center;
@@ -139,9 +160,7 @@ footer {
     margin: 1rem;
     padding: 1rem;
 }
-#make-white {
-    color:white;
-}
+
 #target-bg {
     display: grid;
     grid-template-columns: 1fr 1fr;
