@@ -9,8 +9,9 @@ header img {
     width: 70px;
     padding-right: 1rem;
 }
-body {
+section {
     background-color: #d39447;
+    padding-bottom: 1rem;
 }
 main {
     background-color: #ffe3c1;
