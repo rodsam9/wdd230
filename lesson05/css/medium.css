@@ -1,0 +1,28 @@
+@media (min-width: 32.5em) {
+    .contentbox {
+        background-color: rgb(245, 234, 136);
+    }
+    .hero-div {
+        margin: 10px auto;
+        position: relative;
+        width: 960px;
+        height: 320px;
+    }
+    .hero-img img {
+        margin: 10px auto;
+        width: 70%;
+        height: 320px;
+    }
+    .weather-summary {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        background-color: rgba(240, 191, 99, 0.8);
+        border: 1px solid #fff064;
+        padding: 1rem 2rem;
+        box-shadow: 0 0 30px #777;
+        color: black;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+    }
+}
