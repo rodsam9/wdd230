@@ -39,4 +39,23 @@
     .article-div p {
         padding: .5rem;
     }
+
+    .contact-img {
+        width: 300px;
+        height: 200px;
+        padding: .75rem;
+        margin-left: 1rem;
+    }
+    .contact-div {
+        display: flex;
+        margin: 10px auto;
+        width: 640px;
+        height: auto;
+        background-color: #f0bf81;
+    }
+    .contact-info {
+        margin: 0 auto;
+
+        font-weight: bold;
+    }
 }

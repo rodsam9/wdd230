@@ -167,7 +167,7 @@ nav ul li a:hover {
     margin: 10px auto;
     width: auto;
     height: auto;
-    background-color: #d3b972;
+    background-color: #fff1cb;
 }
 .article-heading {
     font-size: 1.75rem;
@@ -189,4 +189,18 @@ nav ul li a:hover {
     margin-left: 5px;
     margin-right: 15px;
     padding: 10px;
+}
+.contact-img {
+    width:0px;
+}
+.contact-div {
+    display: flex;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    background-color: #f0bf81;
+}
+.contact-info {
+    margin: 0 auto;
+    font-weight: bold;
 }

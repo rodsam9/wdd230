@@ -44,7 +44,6 @@
         margin: 10px auto;
         width: 960px;
         height: auto;
-        background-color: #d3b972;
     }
     .article-img {
         padding: 1rem;
@@ -61,5 +60,23 @@
     }
     .article-div p {
         padding: 1rem;
+    }
+    .contact-img {
+        width: 400px;
+        height: 300px;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+    .contact-div {
+        display: flex;
+        margin: 10px auto;
+        width: 960px;
+        height: auto;
+        background-color: #f0bf81;
+    }
+    .contact-info {
+        margin: 0 auto;
+        margin-top: 3rem;
+        font-weight: bold;
     }
 }
