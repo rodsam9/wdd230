@@ -79,4 +79,12 @@
         margin-top: 3rem;
         font-weight: bold;
     }
+    #pop-up-message {
+        width: auto;
+        height: 150px;
+        padding-top: 1rem;
+        font-size: 4rem;
+        text-align: center;
+        background-color: rgb(255, 241, 176);
+    }
 }
