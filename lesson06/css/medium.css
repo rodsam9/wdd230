@@ -1,0 +1,38 @@
+@media (min-width: 32.5em) {
+    .contentbox {
+        background-color: rgb(245, 234, 136);
+    }
+    .hero-div {
+        width: 640px;
+
+    }
+    .hero-img {
+        width: 640px;
+    }
+
+    .article-div {
+        width: 640px;
+        height: auto;
+    }
+    .article-img {
+        float: right;
+        width: 400px;
+        padding: 1rem;
+    }
+    .article-div p {
+        padding: .5rem;
+    }
+    .contact-div {
+        width: 640px;
+    }
+    .contact-img {
+        width: 300px;
+        height: auto;
+        padding: .75rem;
+        margin-left: 1rem;
+    }
+    #pop-up-message {
+        font-size: 2rem;
+    }
+
+}
