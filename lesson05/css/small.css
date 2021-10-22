@@ -8,6 +8,7 @@ header {
 
 header img {
     width: 70px;
+    height: auto;
     padding-right: 1rem;
 }
 
@@ -94,7 +95,7 @@ nav ul li a:hover {
     display: block;
 }
 
-.main-subheading {
+section h2 {
     margin-bottom: .5rem;
 }
 
@@ -102,13 +103,13 @@ nav ul li a:hover {
     margin: 10px auto;
     position: relative;
     width: 400px;
-    height: 350px;
+    height: auto;
 }
 
 .hero-img {
     margin: 10px auto;
     width: 370px;
-    height: 320px;
+    height: auto;
 }
 
 .weather-summary {
@@ -120,7 +121,7 @@ nav ul li a:hover {
     padding: 1rem 2rem;
     box-shadow: 0 0 30px #777;
     color: black;
-    
+    font-family: 'Lora', serif;
     font-weight: bold;
 }
 
@@ -152,7 +153,7 @@ nav ul li a:hover {
 
 .forecast-sun {
     width: 75px;
-    height: 75px;
+    height: auto;
 }
 
 .data {
@@ -169,17 +170,12 @@ nav ul li a:hover {
     height: auto;
     background-color: #fff1cb;
 }
-.article-heading {
-    font-size: 1.75rem;
-    text-align: center;
-    padding-top: 1rem;
-    margin-top: .15rem;
-}
+
 .article-img {
     margin: 10px auto;
     margin-left: 12px;
     width: 350px;
-    height: 250px;
+    height: auto;
 }
 .article-sub {
     padding: .25rem;
@@ -191,7 +187,7 @@ nav ul li a:hover {
     padding: 10px;
 }
 .contact-img {
-    width:0px;
+    width: 0px;
 }
 .contact-div {
     display: flex;
@@ -203,4 +199,13 @@ nav ul li a:hover {
 .contact-info {
     margin: 0 auto;
     font-weight: bold;
+}
+
+#pop-up-message {
+    width: auto;
+    height: auto;
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(255, 241, 176);
 }

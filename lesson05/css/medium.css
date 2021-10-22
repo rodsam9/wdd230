@@ -3,59 +3,36 @@
         background-color: rgb(245, 234, 136);
     }
     .hero-div {
-        margin: 10px auto;
-        position: relative;
-        width: 100%;
-        height: 350px;
+        width: 640px;
+
     }
     .hero-img {
-        margin: 10px auto;
         width: 640px;
-        height: 320px;
     }
-    .weather-summary {
-        position: absolute;
-        top: 40px;
-        left: 50px;
-        background-color: rgba(240, 191, 99, 0.8);
-        border: 1px solid #fff064;
-        padding: 1rem 2rem;
-        box-shadow: 0 0 30px #777;
-        color: black;
-        font-family: 'Lora', serif;
-        font-weight: bold;
-    }
+
     .article-div {
         width: 640px;
         height: auto;
     }
     .article-img {
         float: right;
-        margin: 10px auto;
         width: 400px;
-        height: 250px;
         padding: 1rem;
     }
     .article-div p {
         padding: .5rem;
     }
-
+    .contact-div {
+        width: 640px;
+    }
     .contact-img {
         width: 300px;
-        height: 200px;
+        height: auto;
         padding: .75rem;
         margin-left: 1rem;
     }
-    .contact-div {
-        display: flex;
-        margin: 10px auto;
-        width: 640px;
-        height: auto;
-        background-color: #f0bf81;
+    #pop-up-message {
+        font-size: 2rem;
     }
-    .contact-info {
-        margin: 0 auto;
 
-        font-weight: bold;
-    }
 }

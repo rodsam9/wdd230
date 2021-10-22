@@ -20,7 +20,7 @@ const fullDate = `${dayName}, ${monthName} ${date}, ${year}`
 
 document.getElementById('time').textContent = fullDate;
 
-if (d.getDay() == 6){
+if (d.getDay() == 5){
     document.getElementById('pop-up-message').style.display = "block";
 }
 else{
