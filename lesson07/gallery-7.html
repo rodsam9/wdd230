@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Sunny Side Site - Preston Town</title>
-    <meta name="description" content="This is the webpage that shows articles, weather summary, newsfeed, and other things for the town Preston, Idaho.">
+    <title>The Sunny Side Site - The Gallery Page</title>
+    <meta name="description" content="This webpage displays and image gallery that contains 9 images based on weather. 
+    These images will not load until user scrolls. We will be using the lazy loading technique to display the images on screen.">
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,7 @@
 
     <script defer src="js/date.js"></script>
     <script defer src="js/navigation.js"></script>
+    <script defer src="js/lazy.js"></script>
 
 </head>
 <header>
@@ -38,88 +40,10 @@
 
 </nav>
 <main>
-    <section>
-        <h2>Preston Idaho</h2>
-        <div class="hero-div">
-            <picture>
-                <source media="(max-width: 520px)" srcset="images/hero-image-small.jpg"/>
-                <source media="(max-width: 960px)" srcset="images/hero-image-medium.jpg"/>
-                <source media="(max-width: 1100px)" srcset="images/hero-image-large.jpg"/>
-                <img class="hero-img" src="images/hero-image-large.jpg" alt="image of sunflower"/>
-            </picture>
-            <section class="weather-summary">
-                <h3>Weather Summary</h3>
-                <hr>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temperature">42</span> °F</p>
-                <p>Wind Chill: <span id="wind-chill"></span> °F</p>
-                <p>Humidity: 59%</p>
-                <p>Wind Speed: <span id="wind-speed">7</span> mph</p>
-            </section>
-        </div>
-        <h2 class="forecast">5 Day Forecast</h2>
-        <div class="flex">
-            <div class="flex-col">
-                <span class="col-day">Wed</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">89 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Thu</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">87 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Fri</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">78 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Sat</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">75 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Sun</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">72 °F</span>
-            </div>
-        </div>
-        <div class="article-div">
-            <h2>Founders Day</h2>
-            <img class="article-img" src="images/hammock.jpeg" alt="image of two people laying on a hammock">
-            
-            <h3 class="article-sub">by John Doe</h3>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut excepturi asperiores itaque, aspernatur nihil quo vitae est magnam
-                libero voluptatem ullam odio architecto exercitationem fugiat, omnis consectetur perspiciatis sint enim atque. Praesentium fuga
-                magni, molestiae saepe repellat ducimus, tempore unde sequi laudantium laborum voluptate aliquid sunt aliquam. Ab libero officia
-                delectus quis, maiores cumque architecto harum, aut adipisci, commodi vel necessitatibus. Eum laudantium, odit, esse accusamus
-                perferendis sequi magnam labore quibusdam non laborum ex animi natus amet eius recusandae dolore saepe at! Tempora iure asperiores
-                fugiat nisi, soluta sit consequuntur quis modi facilis quisquam. Fugit aliquid alias explicabo dolore cumque cum modi eaque recusandae
-                quod distinctio eligendi molestias aperiam dignissimos facilis iusto dolorem voluptatem rem repellat quidem, beatae dolorum non assumenda?
-                Voluptatibus pariatur placeat neque nesciunt similique distinctio voluptate ratione provident odit temporibus enim eligendi iusto quod
-                commodi vero, nisi id sed delectus facere laboriosam dolore ipsum, officia, perspiciatis quibusdam! Quibusdam quos sint inventore nemo
-                ipsa labore, quas odio? Amet, totam! Dolorem, nostrum nulla magnam eius officiis, nihil vel alias architecto soluta exercitationem nemo
-                error esse omnis laborum accusamus aliquam ad voluptatibus quia assumenda? Molestias odit libero culpa atque aspernatur nostrum consequatur
-                nam? Temporibus facere quo amet non voluptatibus, nulla labore repellat ut deleniti neque nam error. Esse assumenda dolore perspiciatis!
-                Atque voluptate id suscipit eum ducimus illo ea odit tempore harum recusandae ratione nisi fugit commodi, modi dolorum quae esse possimus
-                repellendus quibusdam neque asperiores dolorem nobis. Ducimus ex pariatur eligendi nam, quisquam ullam commodi corrupti vitae sit neque
-                iure provident deleniti adipisci quaerat, deserunt inventore aperiam quibusdam? Asperiores fugit a libero eaque veritatis quas iusto amet,
-                perferendis inventore illo quae voluptate accusamus natus provident deserunt nulla ipsa facere officiis sapiente. Libero, eaque non repellendus 
-                asperiores accusantium alias magnam laboriosam commodi numquam pariatur, reprehenderit iure quidem minus. Numquam, culpa!</p>
-        </div>
-        <div class="contact-div">
-            <img class="contact-img" src="images/preston_map.png" alt="image of a map showign Preston, Idaho location"/>
-            <div class="contact-info">
-                <p>The Sunny Side Site</p>
-                <p>📍 30 N 1st E</p>
-                <p>Preston, ID 83263</p>
-                <br>
-                <p>📞 999-999-9999</p>
-                <p>✉ thesunnysidesite@gmail.com</p>
-            </div>
-        </div>
-    </section>
+    <h1>Weather Gallery</h1>
+    <picture>
+        <img src="https://via.placeholder.com/400x200" data-src="images/clearsky.jpg"/>
+    </picture>
 </main>
 <footer>
     <p>
