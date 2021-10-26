@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Loading of Images</title>
+    <meta name="description" content="This webpage will demonstrate or incorporate lazy loading of images. 
+    When the user scrolls down then the images will load in.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="css/lazyload.css"/>
+    
+    <script defer src="js/lazy.js"></script>
+</head>
+<main>
+    <h1>Progressive Loading (Images)</h1>
+    <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="https://placeimg.com/300/400/animals"/>
+    </picture>
+    <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="https://placeimg.com/300/400/nature"/>
+    </picture>
+    <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="https://placeimg.com/300/400/people"/>
+    </picture>
+    <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="https://placeimg.com/300/400/tech"/>
+    </picture>
+    <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="https://placeimg.com/300/400/arch"/>
+    </picture>
+</main>
+</html>
