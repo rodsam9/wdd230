@@ -21,6 +21,7 @@
     <script defer src="js/date.js"></script>
     <script defer src="js/navigation.js"></script>
     <script defer src="js/lazy.js"></script>
+    <script defer src="js/lastvisit.js"></script>
 
 </head>
 <header>
@@ -39,16 +40,53 @@
     </ul>
 
 </nav>
+
 <main>
-    <h1>Weather Gallery</h1>
-    <picture>
-        <img src="https://via.placeholder.com/400x200" data-src="images/clearsky.jpg"/>
-    </picture>
+    <h2>Weather Gallery</h2>
+    <section>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/clearsky-img.jpg"/>
+            <p>Clear Sky</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/lightning-img.jpg"/>
+            <p>Lighting</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/cloudy-img.jpg"/>
+            <p>Cloudy</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/tornado-img.jpg"/>
+            <p>Tornado</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/rainbow-img.jpg"/>
+            <p>Rainbow</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/sunny-img.jpg"/>
+            <p>Sunny</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/rainy-img.jpg"/>
+            <p>Raining</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/partlycloudy-img.jpg"/>
+            <p>Partly Cloudy</p>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/snowy-img.jpg"/>
+            <p>Snowing</p>
+        </picture>
+    </section>
 </main>
 <footer>
     <p>
         &copy; The Sunny Side Site | BYU-Idaho | Sam Rodriguez
     </p>
     <span id="time"></span>
+    <p><span id="last-visit"></span></p>
 </footer>
 </html>

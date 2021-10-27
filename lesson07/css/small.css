@@ -12,30 +12,33 @@ header img {
     padding-right: 1rem;
 }
 
-section {
-    background-color: #d39447;
-    padding-bottom: 1rem;
-}
-
 main {
     background-color: #ffe3c1;
+    text-align: center;
+    width: 100%;
     padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+main h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: .5rem;
 }
 main p {
     font-family: 'Lora', serif;
+    font-size: 1rem;
 }
 
 header h1 {
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
-}
-
-main h2 {
-    font-size: 1.75rem;
-    text-align: center;
-    padding-top: 1rem;
-    margin-top: .15rem;
 }
 
 footer {
@@ -93,119 +96,4 @@ nav ul li a:hover {
 
 .navigation li:first-child {
     display: block;
-}
-
-section h2 {
-    margin-bottom: .5rem;
-}
-
-.hero-div {
-    margin: 10px auto;
-    position: relative;
-    width: 400px;
-    height: auto;
-}
-
-.hero-img {
-    margin: 10px auto;
-    width: 370px;
-    height: auto;
-}
-
-.weather-summary {
-    position: absolute;
-    top: 40px;
-    left: 50px;
-    background-color: rgba(240, 191, 99, 0.8);
-    border: 1px solid #fff064;
-    padding: 1rem 2rem;
-    box-shadow: 0 0 30px #777;
-    color: black;
-    font-family: 'Lora', serif;
-    font-weight: bold;
-}
-
-.flex {
-    display: flex;
-    flex-flow: row wrap;
-    max-width: 640px;
-    margin: 0 auto;
-
-}
-
-.flex-col {
-    flex: 1 1 auto;
-    background-color: rgb(243, 220, 158);
-    border-bottom: 1px solid #777;
-    border-left: 1px solid #777;
-    text-align: center;
-}
-
-.col-day {
-    display: block;
-    padding: 5px;
-    border-bottom: 1px solid #333;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1rem;
-    background-color: rgb(255, 253, 136);
-}
-
-.forecast-sun {
-    width: 75px;
-    height: auto;
-}
-
-.data {
-    display: block;
-    padding: 0 5px 5px;
-    font-size: 1rem;
-    text-align: center;
-    font-weight: 700;
-}
-
-.article-div {
-    margin: 10px auto;
-    width: auto;
-    height: auto;
-    background-color: #fff1cb;
-}
-
-.article-img {
-    margin: 10px auto;
-    margin-left: 12px;
-    width: 350px;
-    height: auto;
-}
-.article-sub {
-    padding: .25rem;
-    margin-left: 10px;
-}
-.article-div p {
-    margin-left: 5px;
-    margin-right: 15px;
-    padding: 10px;
-}
-.contact-img {
-    width: 0px;
-}
-.contact-div {
-    display: flex;
-    margin: 10px auto;
-    width: auto;
-    height: auto;
-    background-color: #f0bf81;
-}
-.contact-info {
-    margin: 0 auto;
-    font-weight: bold;
-}
-
-#pop-up-message {
-    width: auto;
-    height: auto;
-    padding-top: 1rem;
-    font-size: 1rem;
-    text-align: center;
-    background-color: rgb(255, 241, 176);
 }
