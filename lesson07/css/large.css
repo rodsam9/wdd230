@@ -33,7 +33,7 @@
     main section{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    main p {
+    main span {
         font-size: 1.5rem;
     }
     main img:hover {box-shadow: 0 0 100px rgb(114, 60, 29);}

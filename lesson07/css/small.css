@@ -30,9 +30,11 @@ main h2 {
     padding-top: 1rem;
     margin-top: .5rem;
 }
-main p {
+main span {
     font-family: 'Lora', serif;
     font-size: 1rem;
+    display: block;
+    padding: 1rem;
 }
 
 header h1 {
