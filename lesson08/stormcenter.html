@@ -44,7 +44,7 @@
         <fieldset>
             <legend>Applicant Information</legend>
             <label class="boldlabel">Full Name*
-                <input type="text" name="fullname" required>
+                <input type="text" name="fullname" pattern="[a-zA-Z].{4,}" required>
             </label>
             <label class="boldlabel">Email
                 <input type="email" name="email" placeholder="example123@gmail.com">
