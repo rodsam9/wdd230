@@ -85,8 +85,11 @@ fieldset {
     max-width: 240px;
     text-align: left;
     border: 0;
-}
 
+}
+input {
+    padding: 10px;
+}
 legend {
     background-color: #f0bf81;
     padding: .5rem;
@@ -111,7 +114,6 @@ form {
 #submit {
     padding: 1rem;
     text-align: center;
-    width: 100px;
     background-color: whitesmoke;
     border-radius: 10px;
     font-size: 1.25rem;
@@ -121,7 +123,6 @@ textarea {
 }
 .boldlabel {
     font-weight: bold;
-    
 }
 textarea {
     width: 240px;
