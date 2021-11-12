@@ -20,7 +20,6 @@ fetch(requestURL)
         cityNames.forEach(towns => {
 
             let section = document.createElement('section');
-            let text = document.createElement("div");
 
             let name = document.createElement('h2');
             let motto = document.createElement('h3');
@@ -41,14 +40,13 @@ fetch(requestURL)
 
             image.setAttribute("src", `images/${towns.photo}`)
             image.setAttribute("alt", `${towns.name} photo`);
-
             section.appendChild(name);
             section.appendChild(motto);
             section.appendChild(year);
 
             section.appendChild(population);
             section.appendChild(annualRain);
-            section.appendChild(text);
+            
             section.appendChild(image);
             section.appendChild(alt);
 
