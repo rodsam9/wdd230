@@ -80,53 +80,51 @@ nav ul li a:hover {
     display: block;
 }
 
-fieldset {
-    margin: 0 auto;
-    max-width: 240px;
-    text-align: left;
-    border: 0;
-
-}
-input {
-    padding: 10px;
-}
-legend {
-    background-color: #f0bf81;
-    padding: .5rem;
-    text-align: center;
-    font-size: 1.25rem;
-    margin-bottom: -12px;
-    border-radius: 10px;
-}
-
-fieldset label {
-    font-size: 1.5rem;
+.hero-img {
     display: block;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.towns-div section {
     background-color: #f0bf81;
+    border: 1px solid #666;
+    margin: 10px;
     padding: 1rem;
-}
-
-form {
-    padding: 0;
     text-align: center;
 }
 
-#submit {
-    padding: 1rem;
-    text-align: center;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    font-size: 1.25rem;
+.towns-div h2 {
+    color: black;
+    padding: .5rem 0 .1rem 0;
+    margin-bottom: 10px;
+
 }
-textarea {
-    height: 200px;
+.towns-div img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
 }
-.boldlabel {
+
+.towns-div p {
     font-weight: bold;
 }
-textarea {
-    width: 240px;
+
+.towns-div h3 {
+    font-size: .75rem;
 }
-#returnstorm {
+.contact-img {
+    width: 0px;
+}
+.contact-div {
+    display: flex;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    background-color: #f0bf81;
     text-align: center;
+}
+.contact-info {
+    margin: 0 auto;
+    font-weight: bold;
 }

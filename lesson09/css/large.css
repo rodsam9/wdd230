@@ -29,6 +29,32 @@
     main span {
         font-size: 1.5rem;
     }
-    main img:hover {box-shadow: 0 0 100px rgb(114, 60, 29);}
+    
+    .hero-img {
+        width: 960px;
+    }
 
+    .towns-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    .towns-div section {
+        display: grid;
+        grid-template-columns: auto;
+        width: 400px;
+    }
+    .towns-div img {
+        width: 100%;
+    }
+    .contact-img {
+        width: 400px;
+        padding: 1rem;
+    }
+    .contact-div {
+        width: 960px;
+    }
+    .contact-info {
+        margin-top: 3rem;
+    }
 }
