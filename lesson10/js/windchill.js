@@ -11,3 +11,6 @@ if(temperature <= 50 && speedWind > 3){
 
   document.getElementById('wind-chill').innerHTML = windchill;
 }
+else {
+  document.getElementById('wind-chill').innerHTML = "N/A"
+}

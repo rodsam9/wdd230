@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sunny Side Site - Preston Town</title>
-    <meta name="description" content="This is the webpage that shows articles, weather summary, newsfeed, and other things for the town Preston, Idaho.">
+    <meta name="description" content="This is the webpage that shows articles, weather summary, newsfeed, and other things for the town Preston, Idaho. An API will be used to update weather content.">
     <link rel="shortcut icon" href="images/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,9 @@
 
     <script defer src="js/scripts.js"></script>
     <script defer src="js/navigation.js"></script>
+    <script defer src="js/weathersummary.js"></script>
     <script defer src="js/windchill.js"></script>
+    
 </head>
 <aside id="pop-up-message">Saturday - Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park.</aside>
 <header>
@@ -51,40 +53,31 @@
             <section class="weather-summary">
                 <h3>Weather Summary</h3>
                 <hr>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temperature">42</span> °F</p>
+                <p>Currently: <span id="current-description"></span></p>
+                <p>High: <span id="temperature"></span> °F</p>
                 <p>Wind Chill: <span id="wind-chill"></span> °F</p>
-                <p>Humidity: 59%</p>
-                <p>Wind Speed: <span id="wind-speed">7</span> mph</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
             </section>
         </div>
         <h2 class="forecast">5 Day Forecast</h2>
-        <div class="flex">
-            <div class="flex-col">
-                <span class="col-day">Wed</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">89 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Thu</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">87 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Fri</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">78 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Sat</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">75 °F</span>
-            </div>
-            <div class="flex-col">
-                <span class="col-day">Sun</span>
-                <img class="forecast-sun" src="images/sun.png" alt="image of a sun">
-                <span class="data">72 °F</span>
-            </div>
+        <div class="weekforecast">
+            <span class="day" id="day1"></span>
+            <span class="day" id="day2"></span>
+            <span class="day" id="day3"></span>
+            <span class="day" id="day4"></span>
+            <span class="day" id="day5"></span>
+            <span class="icon" id="icon1"></span>
+            <span class="icon" id="icon2"></span>
+            <span class="icon" id="icon3"></span>
+            <span class="icon" id="icon4"></span>
+            <span class="icon" id="icon5"></span>
+            <p><span id="temp1"></span>&#176;F</p>
+            <p><span id="temp2"></span>&#176;F</p>
+            <p><span id="temp3"></span>&#176;F</p>
+            <p><span id="temp4"></span>&#176;F</p>
+            <p><span id="temp5"></span>&#176;F</p>
+          </div>
         </div>
         <div class="article-div">
             <h2>Founders Day</h2>
