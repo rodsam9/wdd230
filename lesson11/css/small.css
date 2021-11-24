@@ -1,0 +1,291 @@
+header {
+    background-color: #d39447;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+    padding-right: 1rem;
+}
+
+main {
+    background-color: #ffe3c1;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: .5rem;
+}
+
+
+header h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #ab5f03;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+nav {
+    margin: 0 auto;
+    background-color: #ab5f03;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    background-color: #f0bf81;
+    color: black;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.hero-img {
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.towns-div section {
+    background-color: #f0bf81;
+    border: 1px solid #666;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.towns-div h2 {
+    color: black;
+    padding: .5rem 0 .1rem 0;
+    margin-bottom: 10px;
+
+}
+.towns-div img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.towns-div p {
+    font-weight: bold;
+}
+
+.towns-div h3 {
+    font-size: .75rem;
+}
+.contact-img {
+    width: 0px;
+}
+.contact-div {
+    display: flex;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    background-color: #f0bf81;
+    text-align: center;
+}
+.contact-info {
+    margin: 0 auto;
+    font-weight: bold;
+}
+.events-div {
+    background-color: #d39447;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+section h2 {
+    margin-bottom: .5rem;
+}
+
+.hero-div {
+    margin: 10px auto;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+
+.hero-img {
+    margin: 10px auto;
+    height: auto;
+}
+
+.weather-summary {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    background-color: rgba(240, 191, 99, 0.8);
+    border: 1px solid #fff064;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 30px #777;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+.forecast-sun {
+    width: 75px;
+    height: auto;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.article-div {
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    background-color: #fff1cb;
+}
+
+.article-img {
+    margin: 10px auto;
+    margin-left: 12px;
+    width: 350px;
+    height: auto;
+}
+.article-sub {
+    padding: .25rem;
+    margin-left: 10px;
+}
+.article-div p {
+    margin-left: 5px;
+    margin-right: 15px;
+    padding: 10px;
+}
+.contact-img {
+    width: 0px;
+}
+.contact-div {
+    display: flex;
+    margin: 10px auto;
+    width: auto;
+    height: auto;
+    background-color: #f0bf81;
+}
+.contact-info {
+    margin: 0 auto;
+    font-weight: bold;
+}
+.weekforecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: 1px solid black;
+    background-color: rgb(243, 220, 158);
+    margin: 1rem;
+    grid-gap: 1px;
+    text-align: center;
+}
+
+.day {
+    background-color: rgb(255, 253, 136);
+    text-align: center;
+    color: black;
+}
+.icon {
+    border-bottom: 1px solid black;
+}
+#background-section {
+    margin-top: -2.5rem;
+    margin-bottom: -2.75rem;
+    background-color: #d39447;
+}
+fieldset {
+    margin: 0 auto;
+    max-width: 240px;
+    text-align: left;
+    border: 0;
+
+}
+input {
+    padding: 10px;
+}
+legend {
+    background-color: #f0bf81;
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: -12px;
+    border-radius: 10px;
+}
+
+fieldset label {
+    font-size: 1.5rem;
+    display: block;
+    background-color: #f0bf81;
+    padding: 1rem;
+}
+
+form {
+    padding: 0;
+    text-align: center;
+}
+
+#submit {
+    padding: 1rem;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+textarea {
+    height: 200px;
+}
+.boldlabel {
+    font-weight: bold;
+}
+textarea {
+    width: 240px;
+}
+#returnstorm {
+    text-align: center;
+}

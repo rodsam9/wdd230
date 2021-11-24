@@ -8,15 +8,14 @@
     }
     .towns-div section {
         display: flex;
-        width: 100%;
-        flex-direction: row;
         margin: 0 auto;
-    }
-    .towns-div img {
-        width: 640px;
     }
     .towns-div section:nth-child(even) {
         flex-direction: row-reverse;
+    }
+    .events-div{
+        width: 90%;
+        text-align: center;
     }
     .contact-div {
         width: 640px;

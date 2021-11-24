@@ -1,0 +1,67 @@
+@media (min-width: 32.5em) {
+    .hero-img {
+        width: 640px;
+    }
+    .towns-div {
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+    .towns-div section {
+        display: flex;
+        margin: 0 auto;
+    }
+    .towns-div section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .events-div{
+        width: 90%;
+        text-align: center;
+    }
+    .contact-div {
+        width: 640px;
+    }
+    .contact-img {
+        width: 300px;
+        height: auto;
+        padding: .75rem;
+        margin-left: 1rem;
+    }
+    .contentbox {
+        background-color: rgb(245, 234, 136);
+    }
+    .hero-div {
+        width: 640px;
+
+    }
+    .hero-img {
+        width: 640px;
+    }
+
+    .article-div {
+        width: 640px;
+        height: auto;
+    }
+    .article-img {
+        float: right;
+        width: 400px;
+        padding: 1rem;
+    }
+    .article-div p {
+        padding: .5rem;
+    }
+    .contact-div {
+        width: 640px;
+    }
+    .contact-img {
+        width: 300px;
+        height: auto;
+        padding: .75rem;
+        margin-left: 1rem;
+    }
+    fieldset {
+        max-width: 500px;
+    }
+    textarea {
+        width: 460px;
+    }
+}
