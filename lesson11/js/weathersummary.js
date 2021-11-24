@@ -1,5 +1,5 @@
-const apiURLpreston = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
-const apiURL2preston = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURLpreston = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURL2preston = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
 
 fetch(apiURLpreston)
 .then((response) => response.json())
@@ -56,8 +56,8 @@ fetch(apiURL2preston)
 
 
 // API for sodasprings
-const apiURLsodasprings = "http://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
-const apiURL2sodasprings = "http://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURLsodasprings = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURL2sodasprings = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
 
 fetch(apiURLsodasprings)
 .then((response) => response.json())
@@ -113,8 +113,8 @@ fetch(apiURL2sodasprings)
 });
 
 // API for fish haven
-const apiURLfishhaven = "http://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
-const apiURL2fishhaven = "http://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURLfishhaven = "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
+const apiURL2fishhaven = "https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=7c244b2f0f7c630109f09f0def8b7866";
 
 fetch(apiURLfishhaven)
 .then((response) => response.json())
