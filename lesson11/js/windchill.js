@@ -1,6 +1,6 @@
-let temperature = document.getElementById('temperature').textContent;
+let temperature = document.getElementsByClassName('.temperature').textContent;
 
-let speedWind = document.getElementById('wind-speed').textContent;
+let speedWind = document.getElementsByClassName('.wind-speed').textContent;
 
 if(temperature <= 50 && speedWind > 3){
   let wind = Math.pow(speedWind, 0.16);
