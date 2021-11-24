@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sunny Side Site - The Gallery Page</title>
+    <meta name="description" content="This webpage displays and image gallery that contains 9 images based on weather. 
+    These images will not load until user scrolls. We will be using the lazy loading technique to display the images on screen.">
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+    <script defer src="js/scripts.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/lazy.js"></script>
+
+
+</head>
+<header>
+    <img src="images/sunny_logo.png" alt="image of sun"/>
+    <h1>The Sunny Side Site</h1>
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="menu" href="#">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston-5.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+
+</nav>
+
+<main>
+    <h2>Weather Gallery</h2>
+    <section id="gallery">
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/clearsky-img.jpg"/>
+            <span>Clear Sky</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/lightning-img.jpg"/>
+            <span>Lighting</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/cloudy-img.jpg"/>
+            <span>Cloudy</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/tornado-img.jpg"/>
+            <span>Tornado</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/rainbow-img.jpg"/>
+            <span>Rainbow</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/sunny-img.jpg"/>
+            <span>Sunny</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/rainy-img.jpg"/>
+            <span>Raining</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/partlycloudy-img.jpg"/>
+            <span>Partly Cloudy</span>
+        </picture>
+        <picture>
+            <img src="https://via.placeholder.com/400x200" data-src="images/snowy-img.jpg"/>
+            <span>Snowing</span>
+        </picture>
+    </section>
+</main>
+<footer>
+    <p>
+        &copy; The Sunny Side Site | BYU-Idaho | Sam Rodriguez
+    </p>
+    <span id="time"></span>
+    <p><span id="last-visit"></span></p>
+</footer>
+</html>

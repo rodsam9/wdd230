@@ -64,4 +64,10 @@
     textarea {
         width: 460px;
     }
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    #gallery h2 {
+        font-size: 3rem;
+    }
 }
