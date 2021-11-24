@@ -151,7 +151,7 @@ section h2 {
 
 .hero-img {
     margin: 10px auto;
-    height: auto;
+    width: 90%;
 }
 
 .weather-summary {
@@ -305,5 +305,13 @@ textarea {
     font-family: 'Lora', serif;
     font-size: 1rem;
     display: block;
+    padding: 1rem;
+}
+.springs-events {
+    background-color: #ffe3c1;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
     padding: 1rem;
 }

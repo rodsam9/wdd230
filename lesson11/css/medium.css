@@ -1,7 +1,4 @@
 @media (min-width: 32.5em) {
-    .hero-img {
-        width: 640px;
-    }
     .towns-div {
         flex-wrap: wrap;
         padding: 1rem;
@@ -70,4 +67,5 @@
     #gallery h2 {
         font-size: 3rem;
     }
+
 }
