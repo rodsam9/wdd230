@@ -10,6 +10,18 @@ fetch(apiURL)
   document.getElementById('humidity').textContent = data.main.humidity;
   document.getElementById('wind-speed').textContent = data.wind.speed;
 
+  if(data.main.temp <= 50 && data.wind.speed > 3){
+    let wind = Math.pow(data.wind.speed, 0.16);
+  
+    let f = 35.74 + 0.6215 * data.main.temp - 35.75 * wind + 0.4275 * data.main.temp * wind;
+  
+    let windchill = f.toFixed(0);
+  
+    document.getElementById('wind-chill').innerHTML = windchill;
+  }
+  else {
+    document.getElementById('wind-chill').innerHTML = "N/A"
+  }
 
 });
 
