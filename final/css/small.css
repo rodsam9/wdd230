@@ -197,9 +197,16 @@ specific css for join.html
 /* 
 specific css for contact.html
 */
+.submit{
+    padding-top: 50px;
+}
+iframe {
+    padding-top: 100px;
+    width: 100%;
+}
 .contact-main {
     text-align: center; 
 }
-.contact {
+.submit-main {
+    text-align: center;
 }
-
