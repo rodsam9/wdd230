@@ -41,16 +41,31 @@
         </div>
     </ul>
 </nav>
-<main>
-    
+<main class="contact-main">
+    <form method="get" action="submit.html" id="contactForm">
+        <h2>Contact Us</h2>
+        <div id="contact">
+            <label>First Name<input type="text" name="cfname"></label>
+            <label>Last Name<input type="text" name="clname"></label>
+            <label>Phone Number<input type="tel" name="cphone"></label>
+            <label>Email<input type="email" name="cemail"></label>
+            <label for="comments">Comments
+            <textarea id="comments" name="comments" rows="7" cols="32"> </textarea></label>
+        </div>
+        <div class="submit">
+            <input type="submit" name="submit" value="Submit Form">
+        </div>
+    </form>
 </main>
 <footer>
     <div class="social-media">
-        <a href=""><img src="" alt="facebook logo"></a>
-        <a href=""><img src="" alt="instagram logo"></a>
-        <a href=""><img src="" alt="twitter logo"></a>
-        <p>Contact Info - Tel: 999-999-9999 Email: contact@gmail.com</p>
+        <a href="facebook.com"><img src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a href="instagram.com"><img src="images/instagram-logo.png" alt="instagram logo"></a>
     </div>
-    <p>&copy; <span id="year"></span> Aubrey Chamber Of Commerce</p>
+    <div class="contact-info">
+        <p>Contact Info - Tel: 999-999-9999</p>
+        <p>Email: contact@gmail.com</p>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Aubrey Chamber Of Commerce</p>
 </footer>
 </html>

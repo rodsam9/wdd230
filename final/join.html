@@ -41,16 +41,63 @@
         </div>
     </ul>
 </nav>
-<main>
-    
+<main class="form-main">
+    <h2>Membership Application Form</h2>
+    <p>Please fill out the information below, and submit.</p>
+    <div class="application-form">
+        <form method="get" action="submit.html" id="joinForm">
+
+            <label>First Name* <input type="text" name="fname" required></label> 
+
+            <label>Last Name*<input type="text" name="lname" required></label>
+
+            <label>Title<input type="text" name="title"></label>
+
+            <label>Email* <input type="email" name="email" required></label> 
+
+            <label>Cell Phone <input type="tel" name="cnumber" placeholder="(972) 999 - 9999"></label>
+
+            <label>Business Name* <input type="text" name="businessName" required></label> 
+
+            <label>Business Address <input type="text" name="businessAddress"></label>
+
+            <label>Business Website <input type="url" name="website"></label>
+
+            <label for="descp">Description of Business <textarea id="descp" name="descp" rows="7" cols="32"> </textarea></label>
+            
+            
+            <div id="radio">
+                <fieldset>
+                <legend>Membership Level</legend>
+                <label class="ignore"><input type="radio" name="level">Non-profit ($100)</label> 
+
+                <label class="ignore"><input type="radio" name="level">Bronze ($200)</label> 
+
+                <label class="ignore"><input type="radio" name="level">Silver ($400)</label>
+
+                <label class="ignore"><input type="radio" name="level">Gold ($1000)</label>
+
+            </fieldset>
+            </div>
+        
+            <div class="submit">
+
+                <input type="submit" name="submit" value="Submit Form">
+
+            </div>
+         </form>
+
+    </div>
 </main>
 <footer>
     <div class="social-media">
-        <a href=""><img src="" alt="facebook logo"></a>
-        <a href=""><img src="" alt="instagram logo"></a>
-        <a href=""><img src="" alt="twitter logo"></a>
-        <p>Contact Info - Tel: 999-999-9999 Email: contact@gmail.com</p>
+        <a href="facebook.com"><img src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a href="instagram.com"><img src="images/instagram-logo.png" alt="instagram logo"></a>
     </div>
-    <p>&copy; <span id="year"></span> Aubrey Chamber Of Commerce</p>
+    <div class="contact-info">
+        <p>Contact Info - Tel: 999-999-9999</p>
+        <p>Email: contact@gmail.com</p>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Aubrey Chamber Of Commerce</p>
 </footer>
 </html>

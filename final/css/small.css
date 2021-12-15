@@ -126,4 +126,80 @@ footer {
     padding: 30px;
 }
 
+/* 
+specific css for city.html
+*/
+.city-main h2{
+    text-align: center;
+    font-size: 50px;
+}
+.city-main h3 {
+    font-size: 30px;
+}
+.city-main p , ul li{
+    font-size: 20px;
+}
+.city-information {
+    margin: 0 auto;
+    width: 70%;
+    background-color: white;
+    padding: 20px 30px;
+}
+.aubreytx-img {
+    float: left;
+    width: 280px;
+    padding-right: 15px;
+}
+.city-information h3 {
+    text-align: center;
+    margin-top: -5px;
+}
+.city-information p {
+    margin-top: -10px;
+    line-height: 2;
+}
+.event-title {
+    text-align: center;
+}
+.events {
+    display: flex;
+    background-color: #daad86;
+    padding: 16px 24px;
+    width: 71%;
+    margin-left: 13%;
+    text-align: center;
+}
+.event-col {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.event-col img {
+    width: 100%;
+}
+
+/* 
+specific css for join.html
+*/
+.form-main {
+    text-align: center; 
+    background-color: #8d8741;
+}
+.application-form {
+    width: 100%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 200px;
+    margin-left: 40%;
+}
+
+/* 
+specific css for contact.html
+*/
+.contact-main {
+    text-align: center; 
+}
+.contact {
+}
 
