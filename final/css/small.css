@@ -1,0 +1,129 @@
+header {
+    background-color: #659dbd;
+    padding: 2rem;
+    display: flex;
+}
+header img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: 10px;
+}
+header h1 {
+    font-size: 70px;
+    margin-right: auto;
+}
+.navigation {
+    background-color: #daad86;
+    display: flex;
+    padding: 16px;
+    margin: 0 auto;
+    list-style: none;
+}
+.navigation a {
+    color: black;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navigation a:hover {
+    background-color: white;
+}
+.navigation li {
+    margin: 0;
+}
+.header-login {
+    margin-left:auto;
+}
+main {
+    background-color: #fbeec1;
+    padding: 2rem;
+}
+.hero-div {
+    position: relative;
+}
+.hero-div img {
+    width: 100%;
+    height: auto;
+}
+.hero-div h2 {
+    position: absolute;
+    left: 0%;
+    top: -13%;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.hero-div button {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    padding: 16px 50px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+h1, h2 {
+    font-family: 'Readex Pro', sans-serif;
+}
+ul li, p {
+    font-family: 'Nunito', sans-serif;
+}
+.mission-div {
+    text-align: center;
+}
+.mission-div h2{
+    font-size: 50px;
+}
+.mission-div p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.companies-div {
+    display: flex;
+    text-align: center;
+    background-color: #daad86;
+}
+.company-col {
+    width: 100%;
+    border: 1px solid black;
+    padding: 6px 20px;
+}
+.company-col p{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.companies-div img {
+    width: 60%;
+    height: auto;
+    padding: 10px;
+}
+.social-media {
+    margin-left: 10%;
+    padding-right: 30px;
+    margin-right: 10%;
+}
+.social-media img {
+    padding: 8px;
+}
+.contact-info {
+    display: block;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+.copyright {
+    padding-top: 15px;
+    margin-left: 100px;
+}
+footer {
+    background-color: #659dbd;
+    display: flex;
+    padding: 30px;
+}
+
+

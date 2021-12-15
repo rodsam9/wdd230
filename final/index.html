@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aubrey Chamber of Commerce</title>
+    <meta name="description" content="The Chamber of Commerce Website for the City of Aubrey, TX.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Readex+Pro&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+    <script defer src="js/navigation.js"></script>
+    <script defer src="js/year.js"></script>
+    
+</head>
+<header>
+    <img src="images/star.png" alt="image of a star"/>
+    <h1>Aubrey Chamber of Commerce</h1>
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="city.html">City</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <div class="header-login">
+            <form action="" method="post">
+                <input type="text" name="email" placeholder="E-mail/Username">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit" name="login">LOGIN</button>
+                <button type="submit" name="signup">SIGNUP</button>
+            </form>
+        </div>
+    </ul>
+</nav>
+<main>
+    <div class="hero-div">
+        <img src="images/home_hero_large.jpg" alt="image of city of aubrey,tx"/>
+        <h2>Creating Opportunities To Grow In The Community</h2>
+        <a href="join.html"><button class="button">Join Now</button></a>
+    </div>
+    <div class="mission-div">
+        <h2>Our Mission</h2>
+        <p>The mission of the Aubrey Chamber of Commerce is to promote commerce through resources and connections.</p>
+    </div>
+    <h2 class="forecast">3 Day Forecast</h2>
+    <div class="3dayforecast">
+        <span class="day" id="day1"></span>
+        <span class="day" id="day2"></span>
+        <span class="day" id="day3"></span>
+        <span class="condition" id="condition1"></span>
+        <span class="condition" id="condition2"></span>
+        <span class="condition" id="condition3"></span>
+        <span class="temp" id="temp1"></span>
+        <span class="temp" id="temp2"></span>
+        <span class="temp" id="temp3"></span>
+        <span class="humidty" id="humidity1"></span>
+        <span class="humidty" id="humidity2"></span>
+        <span class="humidty" id="humidity3"></span>
+    </div>
+    <div class="companies-div">
+        <div class="company-col">
+            <h2 class="company-title">Sonic Drive-In</h2>
+            <p class="company-description">The nation's largest drive-in restaurant chain serving more than 3 million customers every day.</p>
+            <img src="images/sonic.jpg" alt="image of company 1"/>
+            <p>924 Highway 377 South, Aubrey, TX 76227</p>
+        </div>
+        <div class="company-col">
+            <h2 class="company-title">Dollar General</h2>
+            <p class="company-description">Dollar General makes shopping for everyday needs simpler and hassle-free by offering an assortment of the most popular brands at low everyday prices</p>
+            <img src="images/dollar-general.jpg" alt="image of company 2"/>
+            <p>990 US-377, Aubrey, TX 76227</p>
+        </div>
+        <div class="company-col">
+            <h2 class="company-title">Subway</h2>
+            <p class="company-description">Subway is an American multi-national fast food restaurant franchise that primarily sells submarine sandwiches, wraps, salads and beverages.</p>
+            <img src="images/subway.jpg" alt="image of company 3"/>
+            <p>928 Hwy 377 Suite 100, Aubrey, TX 76227</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="social-media">
+        <a href="facebook.com"><img src="images/facebook-logo.png" alt="facebook logo"></a>
+        <a href="instagram.com"><img src="images/instagram-logo.png" alt="instagram logo"></a>
+    </div>
+    <div class="contact-info">
+        <p>Contact Info - Tel: 999-999-9999</p>
+        <p>Email: contact@gmail.com</p>
+    </div>
+    <p class="copyright">&copy; <span id="year"></span> Aubrey Chamber Of Commerce</p>
+</footer>
+</html>
