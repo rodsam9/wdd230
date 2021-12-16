@@ -55,13 +55,14 @@ main {
     height: auto;
 }
 .hero-div h2 {
-    position: absolute;
+    display: none;
     left: 0%;
     top: -13%;
     font-size: 100px;
     text-align: center;
     color: white;
     background-color: black;
+    width: 100%;
 }
 .hero-div button {
     position: absolute;
@@ -93,12 +94,12 @@ ul li, p {
     margin-bottom: 50px;
 }
 .companies-div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     text-align: center;
     background-color: #daad86;
 }
 .company-col {
-    width: 100%;
     border: 1px solid black;
     padding: 6px 20px;
 }
@@ -184,6 +185,9 @@ specific css for city.html
     font-weight: bold;
 }
 .event-col img {
+    width: 100%;
+}
+.demo-img {
     width: 100%;
 }
 
