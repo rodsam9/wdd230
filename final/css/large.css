@@ -1,3 +1,16 @@
 @media only screen and (min-width: 60em) {
-    
+    .menu {
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
+    .navigation li {
+        display: block;
+    }
 }

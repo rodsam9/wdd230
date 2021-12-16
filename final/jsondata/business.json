@@ -1,0 +1,39 @@
+{   
+    "businesses": [
+        {
+            "name": "Subway",
+            "address": "928 Hwy 377 Suite 100, Aubrey, TX 76227",
+            "phoneNumber": "(940) 365-7827"
+        },
+        {
+            "name": "Sonic",
+            "address": "924 S Highway 377 Aubrey TX 76227",
+            "phoneNumber": "(940) 440-0090"
+        },
+        {
+            "name": "Dollar General",
+            "address": "990 S Highway 377 Aubrey TX 76227",
+            "phoneNumber": "(940) 365-2780"
+        },
+        {
+            "name": "All Area Fence",
+            "address": "300 N Cherry St Aubrey, TX 76227",
+            "phoneNumber": "(940) 453-4958"
+        },
+        {
+            "name": "Dollar Tree",
+            "address": "915 S Highway 377 Aubrey TX 76227",
+            "phoneNumber": "(940) 365-9201"
+        },
+        {
+            "name": "Aubrey Family Medicine",
+            "address": "958 S Highway 377 # 200 Aubrey TX 76227",
+            "phoneNumber": "(940) 365-6903"
+        },
+        {
+            "name": "Country View Animal Hospital",
+            "address": "111 N Highway 377 Aubrey, TX 76227",
+            "phoneNumber": "(940) 365-9384"
+        }
+    ]
+}

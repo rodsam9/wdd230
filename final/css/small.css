@@ -31,6 +31,14 @@ header h1 {
 }
 .navigation li {
     margin: 0;
+    display: none;
+}
+.responsive li {
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
 }
 .header-login {
     margin-left:auto;
@@ -210,3 +218,22 @@ iframe {
 .submit-main {
     text-align: center;
 }
+
+
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 5px;
+}
+#wrapper .column {
+    padding: 100px;
+    border: 1px solid black;
+}
+#wrapper.grid { 
+    grid-template-columns: 500px 500px 500px; 
+}
+#wrapper.grid .column:nth-child(odd) { 
+    background: none; 
+}
+
